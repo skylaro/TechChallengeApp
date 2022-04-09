@@ -11,7 +11,7 @@ provider "azurerm" {
   features {}
 }
 resource "azurerm_resource_group" "techchallenge-app" {
-  name     = "example-resources"
+  name     = "techchallenge-app"
   location = "Central US"
 }
 
