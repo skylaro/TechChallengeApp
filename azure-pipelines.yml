@@ -23,6 +23,7 @@ steps:
   inputs:
     command: 'plan'
     allowTelemetryCollection: false
+    environmentServiceName: $(serviceConnection)
 
 - task: TerraformCLI@0
   inputs:
