@@ -28,5 +28,5 @@ steps:
 - task: TerraformCLI@0
   inputs:
     command: 'apply'
-    runAzLogin: true
+    environmentServiceName: "azure"
     allowTelemetryCollection: false
