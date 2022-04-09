@@ -20,7 +20,7 @@ resource "azurerm_container_group" "techchallenge-app" {
   location            = azurerm_resource_group.techchallenge-app.location
   resource_group_name = azurerm_resource_group.techchallenge-app.name
   ip_address_type     = "Public"
-  dns_name_label      = "aci-label"
+  dns_name_label      = "techchallengetestapp"
   os_type             = "Linux"
 
 
