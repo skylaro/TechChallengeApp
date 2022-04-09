@@ -33,7 +33,7 @@ resource "azurerm_container_group" "techchallenge-app" {
     }
     cpu= "1.0"
     memory= "1.0"
-    command = [
+    commands = [
       "TechChallenceApp serve"
     ]
   }
